@@ -1,9 +1,9 @@
 import { Float, Flex } from "@chakra-ui/react";
-import { LoginContainer } from "@/containers/auth/login-container";
 import { AuthHeader } from "@/components/auth/auth-header";
 import { AuthFooter } from "@/components/auth/auth-footer";
+import { RegistrationContainer } from "@/containers/auth/registration-container";
 
-export default function LoginPage() {
+export default function RegistrationPage() {
   return (
     <Flex
       minH="lvh"
@@ -14,7 +14,7 @@ export default function LoginPage() {
     >
       <AuthHeader />
       <Float placement="middle-center" w="full" as="main">
-        <LoginContainer maxW="md" flexGrow="1" mx="10" mb="10" />
+        <RegistrationContainer maxW="md" flexGrow="1" mx="10" mb="5" />
       </Float>
       <AuthFooter />
     </Flex>
