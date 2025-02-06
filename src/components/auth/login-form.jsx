@@ -35,6 +35,7 @@ export function LoginForm({ register, onSubmit, errors, isValid, ...props }) {
                 required: "Введите никнейм или почту",
               })}
               required={null}
+              bg="bg"
             />
           </Field>
 
@@ -49,6 +50,7 @@ export function LoginForm({ register, onSubmit, errors, isValid, ...props }) {
                 required: "Введите пароль",
               })}
               required={null}
+              bg="bg"
             />
           </Field>
         </Fieldset.Content>

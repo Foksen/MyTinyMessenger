@@ -44,6 +44,7 @@ export function RegistrationForm({
               })}
               required={null}
               placeholder="IvanIvanov"
+              bg="bg"
             />
           </Field>
 
@@ -63,6 +64,7 @@ export function RegistrationForm({
               })}
               required={null}
               placeholder="somemail@email.com"
+              bg="bg"
             />
           </Field>
 
@@ -78,6 +80,7 @@ export function RegistrationForm({
                 required: "Введите пароль",
               })}
               required={null}
+              bg="bg"
             />
           </Field>
 
@@ -92,6 +95,7 @@ export function RegistrationForm({
                 required: "Повторите пароль",
               })}
               required={null}
+              bg="bg"
             />
           </Field>
 

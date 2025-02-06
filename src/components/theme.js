@@ -4,6 +4,7 @@ const config = defineConfig({
   globalCss: {
     html: {
       colorPalette: "blue",
+      bg: "bg.subtle",
     },
   },
 });
