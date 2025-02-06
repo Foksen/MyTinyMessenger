@@ -12,7 +12,6 @@ export function AuthFooter() {
       py={{ base: "4", md: null }}
       as="footer"
       borderTopWidth="thin"
-      bgColor="bg"
     >
       <Flex
         w="full"

@@ -4,7 +4,7 @@ export default function RootLayout({ children }) {
   return (
     <html suppressHydrationWarning>
       <body>
-        <Provider forcedTheme="light">{children}</Provider>
+        <Provider>{children}</Provider>
       </body>
     </html>
   );
