@@ -6,6 +6,7 @@ export function HeaderSimple() {
   return (
     <Center
       justifyContent="space-between"
+      mb="16"
       px={{ base: "6", md: "8" }}
       w="full"
       h="16"
@@ -16,7 +17,7 @@ export function HeaderSimple() {
         <IconLogo />
       </Icon>
 
-      <ColorModeButton size="sm" colorPalette="gray" />
+      <ColorModeButton size="sm" colorPalette="gray" outline="none" />
     </Center>
   );
 }

@@ -8,6 +8,7 @@ export function FooterSimple() {
     <Center
       w="full"
       minH={{ md: "16" }}
+      mt="16"
       px={{ base: "6", md: "8" }}
       py={{ base: "4", md: null }}
       as="footer"
@@ -27,6 +28,7 @@ export function FooterSimple() {
           textStyle="sm"
           textAlign="center"
           fontWeight="medium"
+          outline="none"
           asChild
         >
           <NextLink href="/terms">Пользовательское соглашение</NextLink>

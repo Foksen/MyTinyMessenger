@@ -110,8 +110,10 @@ export function RegistrationForm({
               })}
             >
               Нажимая "Зарегистрироваться", я принимаю условия 
-              <ChakraLink asChild>
-                <NextLink href="/terms">пользовательского соглашения</NextLink>
+              <ChakraLink outline="none" asChild>
+                <NextLink target="_blank" href="/terms">
+                  пользовательского соглашения
+                </NextLink>
               </ChakraLink>
             </Checkbox>
           </Field>
