@@ -1,7 +1,7 @@
 import { Float, Flex } from "@chakra-ui/react";
 import { LoginContainer } from "@/containers/auth/login-container";
-import { AuthHeader } from "@/components/auth/auth-header";
-import { AuthFooter } from "@/components/auth/auth-footer";
+import { HeaderSimple } from "@/components/common/header/header-simple";
+import { FooterSimple } from "@/components/common/footer/footer-simple";
 
 export default function LoginPage() {
   return (
@@ -12,11 +12,11 @@ export default function LoginPage() {
       alignItems="center"
       position="relative"
     >
-      <AuthHeader />
+      <HeaderSimple />
       <Float placement="middle-center" w="full" as="main">
         <LoginContainer maxW="md" flexGrow="1" mx="10" mb="10" />
       </Float>
-      <AuthFooter />
+      <FooterSimple />
     </Flex>
   );
 }

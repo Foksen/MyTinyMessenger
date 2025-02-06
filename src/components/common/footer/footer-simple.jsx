@@ -1,14 +1,14 @@
 import { Center, Flex, Text, Link as ChakraLink } from "@chakra-ui/react";
 import NextLink from "next/link";
 
-export function AuthFooter() {
+export function FooterSimple() {
   const currentYear = new Date().getFullYear();
 
   return (
     <Center
       w="full"
       minH={{ md: "16" }}
-      px={{ base: "6", md: "10" }}
+      px={{ base: "6", md: "8" }}
       py={{ base: "4", md: null }}
       as="footer"
       borderTopWidth="thin"

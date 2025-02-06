@@ -1,6 +1,6 @@
 import { Float, Flex } from "@chakra-ui/react";
-import { AuthHeader } from "@/components/auth/auth-header";
-import { AuthFooter } from "@/components/auth/auth-footer";
+import { HeaderSimple } from "@/components/common/header/header-simple";
+import { FooterSimple } from "@/components/common/footer/footer-simple";
 import { RegistrationContainer } from "@/containers/auth/registration-container";
 
 export default function RegistrationPage() {
@@ -12,11 +12,11 @@ export default function RegistrationPage() {
       alignItems="center"
       position="relative"
     >
-      <AuthHeader />
+      <HeaderSimple />
       <Float placement="middle-center" w="full" as="main">
         <RegistrationContainer maxW="md" flexGrow="1" mx="10" mb="5" />
       </Float>
-      <AuthFooter />
+      <FooterSimple />
     </Flex>
   );
 }

@@ -1,12 +1,12 @@
 import { Center, Icon } from "@chakra-ui/react";
 import { ColorModeButton } from "@/components/ui/color-mode";
-import { IconLogo } from "../../../public/icons/icon-logo";
+import { IconLogo } from "../../../../public/icons/icon-logo";
 
-export function AuthHeader() {
+export function HeaderSimple() {
   return (
     <Center
       justifyContent="space-between"
-      px={{ base: "6", md: "10" }}
+      px={{ base: "6", md: "8" }}
       w="full"
       h="16"
       borderBottomWidth="thin"
