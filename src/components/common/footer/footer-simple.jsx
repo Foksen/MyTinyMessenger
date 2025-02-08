@@ -8,7 +8,6 @@ export function FooterSimple() {
     <Center
       w="full"
       minH={{ md: "16" }}
-      mt="16"
       px={{ base: "6", md: "8" }}
       py={{ base: "4", md: null }}
       as="footer"
